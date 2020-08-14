@@ -1,3 +1,5 @@
+
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -5,9 +7,24 @@
 
 }
 html{
-  
+  height: 100%;
+
 }
 body{
+
+}
+
+
+
+.container{
+  position: absolute;
+  background-color: black;
+  min-height: 100%;
+  overflow: hidden;
+  height: auto !important;
+  height: 100%;
+  border:1px solid #80ff80;
+  max-width: 100%;
 
 }
 
@@ -309,11 +326,10 @@ background-color: grey;
     color: #ebebe0;
     font-weight: lighter;
   }
-
-
-  .state{
-
-
+  .card{
+    background-color: #1b1c1b;
+    margin-top: 10px;
+    padding-top: 40px;
   }
   .state_summary{
     border-bottom: 0.5px solid #ebebe0;
@@ -366,8 +382,10 @@ background-color: grey;
 
   }
   .case7{
+    height: 20em;
 
   }
+
   .select-cover{
     border-radius: 1px solid #ebebe0;
     border:1px solid #ebebe0;
@@ -386,7 +404,10 @@ background-color: grey;
     width: 30px;
     background-color: red;
   }
+.state{
 
+  height: 32em;
+}
 
 
 
