@@ -1,5 +1,4 @@
 
-
 *{
   box-sizing: border-box;
   margin: 0;
@@ -47,6 +46,8 @@ margin-left: -30px;
 background-color: #1b1c1b;
 }
 .card{
+
+  
   background-color: #1b1c1b;
   margin-top: 10px;
 }
@@ -320,19 +321,61 @@ background-color: grey;
     max-width: 100%;
     max-height: 1000px;
   }
+    #dots{
+      position: absolute;
+      margin-top: 50px;
+      margin-left: -25px;
+    height: 5px;
+    width: 6px;
+    border: 0.5px solid  #ebebe0;
+    border-radius: 7px;
+    background-color: red;
+
+  }
   #state_summary{
+    margin-top: -2em;
     font-size: 14px;
     text-align: center;
     color: #ebebe0;
     font-weight: lighter;
   }
+  .total{
+    font-size: 12px;
+    color: #ffffff;
+  }
+  .Discharged{
+    color: #30FC0C;
+    font-size: 12px;
+  }
+  .Death{
+    color: #FC0C3F;
+    font-size: 12px;
+  }
+  .card-body{
+    background-color: #1b1c1b;
+  }
+  .active{
+    color: #FCFC0C;
+    font-size: 12px;
+  }
   .card{
     background-color: #1b1c1b;
     margin-top: 10px;
-    padding-top: 40px;
+    padding-top: 30px;
+  }
+  .card-text{
+    color: #ebebe0;
+
+  }
+  .card-title{
+
+      color: #ebebe0;
+
   }
   .state_summary{
-    border-bottom: 0.5px solid #ebebe0;
+
+
+    height: 1em;
   }
 
   .select{
@@ -406,7 +449,7 @@ background-color: grey;
   }
 .state{
 
-  height: 32em;
+  height: 30em;
 }
 
 
